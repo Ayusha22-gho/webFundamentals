@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My java SCript</title>
+    </head>
+         <script src="external.js" type="text/javascript"></script>
+         <script src="external.js" type="text/javascript"></script><!--external javascript-->
+    <body>
+        <p id="demo"></p>
+
+        <script>
+            var roll,name;
+            name="<br>AYUSHA GHOSH<br>"
+            document.write(roll);/*undefined as roll is not initialized*/
+            document.write(name);
+            var x=10,y=40,z=90;
+            document.write(z=x+y);
+            document.write("<br>");
+            var fname="Ajit", sname="Mohanty";
+            document.getElementById("demo").innerHTML=fname+sname;
+            var a= prompt("Enter value: ","CAPITAL");
+            document.write(a);
+
+
+        </script>
+        <p>Conditional statements</p>
+        <script>
+            var b=prompt("Enter your roll: ");
+                
+            /*if(a==10 && b==20)
+            document.write("Executed");*/
+            if(b==10)
+                document.write("<br>Name: Rahul<br>");
+            else
+                document.write("wromg value");
+
+            var result=prompt("enter your marks");
+            if(result <= 30)
+                document.write("Fail");
+            else if(result <=40)
+                document.write("Pass");
+            else if(result <= 60)
+                document.write("Good");
+            else
+                document.write("Very good")
+            document.write("<br>")
+
+            var day = 1;
+            switch(day){
+                case 1:
+                document.write("Sun");
+                break;
+                case 2:
+                document.write("Monday");
+                break;
+                case 3:
+                document.write("Tuesday");
+                break;
+                case 4:
+                document.write("Wednesday");
+                break;
+                default:
+                document.write("wRrong expression");
+            }
+        </script>
+
+
+    </body><!--Closing body tag ke just upar script tag makes web page load faster-->
+
+
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            java_script
+        </title>
+    </head>
+    <body>
+        <h2>Javascript string methods and this keyword</h2>
+        <p>My name is Ayusha ,hello everyone</p>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <P id="demo2"></P>
+        <script>
+            var str = "My name is Ayusha";
+            var n = str.search("A");
+            document.getElementById("demo").innerHTML = n;
+            var x =this;
+            document.getElementById("demo1").innerHTML = x;
+
+            var person={
+                firstName: "Ayusha",
+                lastName: "Ghosh",
+                id: " 17BEC1097",
+                fullName: function()
+                {
+                    return this.firstName + " " + this.lastName+" "+ this.id;
+                }
+            };
+
+            document.getElementById("demo2").innerHTML= person.fullName();
+
+        </script>
+        
+    </body>
+</html>

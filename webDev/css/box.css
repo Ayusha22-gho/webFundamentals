@@ -1,0 +1,32 @@
+body{
+    background: yellow;
+}
+.div{
+    border-radius: 15px 15px 0 15px;/*clockwise*/
+    background-color: turquoise;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+    
+
+.topnav{
+    overflow: hidden; /* occupy space*/
+    background-color: #000000;
+
+
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;/*top bottom another is lest and right*/
+    text-decoration: none;
+}
+.topnav a:hover{
+    color: #000000;
+    background: #ffffff;
+}

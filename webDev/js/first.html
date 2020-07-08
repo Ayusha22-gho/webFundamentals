@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title> With Js </title>
+        <script>
+        function myFun(){
+            document.getElementById("demo2").innerHTML="Paragraph changed";/*internel javascript*/
+        }
+        
+        </script>
+        <script src="myScript.js"></script><!--external javaScript-->
+        
+    </head>
+    <body>
+        <h2>First JavaScript</h2>
+        <button onclick="document.getElementById('demo').innerHTML=Date()">Click me to display date and time</button>
+        <p id="demo"></p> <!--change text by using .innerHTML-->
+
+        <p id="demo1">This text will change to-</p>
+        <button onclick='document.getElementById("demo1").innerHTML= "Hello Everyone"'>Click me</button>
+        
+        <br><!--inline-->
+
+        <button onclick="document.getElementById('myImage').src='bulb_on.jpg'">Turn on the light</button>
+
+        <img id="myImage" src="bulb_off.gif.png" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='bulb_off.gif.png'">Turn off the light</button>
+        <br>
+        <p id="demo2">helloooooo</p>
+        <button type="button" onclick='myFun()'>TRY IT</button>
+        
+
+    </body>
+</html>
